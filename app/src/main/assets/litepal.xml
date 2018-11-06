@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="Hello sWeather" ></dbname><!--数据库的名字-->
+
+    <version value="5" ></version><!--数据库版本号-->
+
+    <list>
+        <mapping class="com.example.administrator.weather.db.Province"/>
+        <mapping class="com.example.administrator.weather.db.City"/>
+        <mapping class="com.example.administrator.weather.db.County"/>
+    </list>
+</litepal>
